@@ -1,0 +1,25 @@
+{
+  "name": "email-app",
+  "private": true,
+  "author": "alexandros.tsiouris.dev@gmail.com",
+  "repository": "",
+  "scripts": {
+    "design": "turbo --filter=@bh-email/designer dev",
+    "start": "turbo start",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "dev@api": "turbo --filter=@bh-email/api dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@bh-email/eslint-config": "workspace:*",
+    "@bh-email/typescript-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@9.0.5",
+  "engines": {
+    "node": ">=18"
+  }
+}

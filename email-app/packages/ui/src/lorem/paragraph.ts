@@ -1,0 +1,3 @@
+export const paragraph = `
+Aenean finibus molestie elementum. Pellentesque vehicula leo sem, ultricies sodales arcu interdum ac. Nulla a dignissim eros. Nullam consectetur nibh vel quam rutrum hendrerit. Pellentesque gravida dolor at justo mollis, eu vestibulum metus porta. Cras fringilla malesuada tincidunt. Donec congue convallis orci, eu pulvinar libero. Praesent vitae eros id turpis convallis ultricies at quis massa. Curabitur dolor quam, venenatis sed suscipit et, lacinia vel lacus.
+`
