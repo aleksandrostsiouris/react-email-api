@@ -1,7 +1,7 @@
 import { z } from "zod"
 import { EmailDataSchema } from "./email"
 
-export const creditNotificationSchema = z.object({
+export const emailNotificationSchema = z.object({
   to: z.string().email()
     .or(EmailDataSchema)
     .or(z.array(z.string().email().or(EmailDataSchema))),

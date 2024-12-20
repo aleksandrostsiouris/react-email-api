@@ -1,5 +1,5 @@
 {
-  "name": "@bh-email/eslint-config",
+  "name": "@email-app/eslint-config",
   "version": "0.0.0",
   "private": true,
   "files": [

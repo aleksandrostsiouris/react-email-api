@@ -1,5 +1,5 @@
 {
-  "extends": "@bh-email/typescript-config/react-library.json",
+  "extends": "@email-app/typescript-config/react-library.json",
   "compilerOptions": {
     "outDir": "dist"
   },

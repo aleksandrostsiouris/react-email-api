@@ -1,7 +1,5 @@
-import CreditNotificationEmail from "./credit-notification"
-import OptInNotificationEmail from "./opt-in-notification"
+import ExampleNotificationEmail from "./example-notification"
 
 export {
-  CreditNotificationEmail,
-  OptInNotificationEmail
+  ExampleNotificationEmail
 }

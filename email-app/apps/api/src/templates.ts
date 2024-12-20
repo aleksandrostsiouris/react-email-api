@@ -1,10 +1,8 @@
-import { creditNotificationSchema } from "./schemas/credit-notification";
-import { optInNotificationSchema } from "./schemas/opt-in-notification";
+import { emailNotificationSchema } from "./schemas/email-notification";
 import { ZodSchema } from "zod"
 
 export const availableTemplates = [
-  'credit-notification',
-  'opt-in-notification'
+  'email-notification',
 ];
 
 export const isValidTemplate = async (template: string, body: any) => {
@@ -14,10 +12,8 @@ export const isValidTemplate = async (template: string, body: any) => {
 
   let schema; ZodSchema;
   switch (template) {
-    case 'credit-notification':
-      schema = creditNotificationSchema;
-    case 'opt-in-notification':
-      schema = optInNotificationSchema;
+    case 'email-notification':
+      schema = emailNotificationSchema;
   }
 
   if (!schema) throw new Error(`Template ${template} not found`);

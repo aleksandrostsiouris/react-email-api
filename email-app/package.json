@@ -2,19 +2,19 @@
   "name": "email-app",
   "private": true,
   "author": "alexandros.tsiouris.dev@gmail.com",
-  "repository": "",
+  "repository": "https://github.com/aleksandrostsiouris/react-email-api",
   "scripts": {
-    "design": "turbo --filter=@bh-email/designer dev",
+    "design": "turbo --filter=@email-app/designer dev",
     "start": "turbo start",
     "build": "turbo build",
     "dev": "turbo dev",
-    "dev@api": "turbo --filter=@bh-email/api dev",
+    "dev@api": "turbo --filter=@email-app/api dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@bh-email/eslint-config": "workspace:*",
-    "@bh-email/typescript-config": "workspace:*",
+    "@email-app/eslint-config": "workspace:*",
+    "@email-app/typescript-config": "workspace:*",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },
